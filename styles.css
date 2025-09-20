@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffeef0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+#question {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  position: relative;
+  display: inline-block;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+#yesBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+#noBtn {
+  background-color: #f44336;
+  color: white;
+  position: absolute;
+}
+
+#stickers {
+  margin-top: 30px;
+}

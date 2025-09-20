@@ -2,13 +2,14 @@ const question = document.getElementById('question');
 const yesBtn = document.getElementById('yesBtn');
 const noBtn = document.getElementById('noBtn');
 
+// When Yes is clicked
 yesBtn.addEventListener('click', () => {
   question.textContent = 'I knew you would forgive me!';
   yesBtn.style.display = 'none';
   noBtn.style.display = 'none';
 });
 
-// make the "No" button move randomly
+// Make the "No" button move randomly
 noBtn.addEventListener('mouseover', () => {
   const x = Math.floor(Math.random() * 300);
   const y = Math.floor(Math.random() * 300);
